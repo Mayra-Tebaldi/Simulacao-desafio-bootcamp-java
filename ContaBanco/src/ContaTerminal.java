@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-     //Exibir a mensagem de conta criada
         Scanner scanner = new Scanner (System.in).useLocale(Locale.US);
 
         System.out.println("Bem Vindo ao Banco MTM! Por favor, digite o seu nome:");
